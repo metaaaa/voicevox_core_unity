@@ -4,7 +4,7 @@
 Unityでvoicevox_engineを介さずにvoicevox_coreを直接叩くやつです<br>
 非公式です<br>
 voicevox_core 0.14.3 で動作するように作成されています<br>
-CPUモードでのみ動作を確認しています<br>
+Windows環境かつCPUモードでのみ動作を確認しています<br>
 
 ## install
 ### UPM
