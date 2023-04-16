@@ -21,6 +21,8 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode/
+.idea/
 
 # Gradle cache directory
 .gradle/
@@ -58,3 +60,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+UserSettings/
+
+memo.txt
+
+/[Aa]ssets/Plugins/voicevox_core/
+/[Aa]ssets/Plugins/voicevox_core.meta
+/[Aa]ssets/Plugins/download.*
