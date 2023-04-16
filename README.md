@@ -7,6 +7,7 @@ CPUモードでのみ動作を確認しています<br>
 
 ## install
 ### UPM
+window -> PackageManager -> add package from git url
 ```
 https://github.com/metaaaa/voicevox_core_unity.git?path=Assets/VoicevoxCoreUnity
 ```
@@ -19,3 +20,7 @@ PowerShellを開いて Assets/Plugins/ に移動して
 Invoke-WebRequest https://github.com/VOICEVOX/voicevox_core/releases/latest/download/download-windows-x64.exe -OutFile ./download.exe
 ./download.exe -v 0.14.3
 ```
+
+## Build
+open_jtalk_dicとmodelをVoicevoxConfigで指定されているpathに配置すれば動く(あんまり検証してない)
+![image](https://user-images.githubusercontent.com/56059182/232301774-fdd28e69-c05a-4586-9027-1b0065c716a5.png)
